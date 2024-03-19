@@ -1,0 +1,5 @@
+third C string in file 1
+second B string in file 5
+fourth D string in file 4
+first A string in file 3
+first A string in file 2
