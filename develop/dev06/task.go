@@ -5,6 +5,7 @@ import (
 	"strings"
 )
 
+// Cut extracts the infromation by fields
 func Cut(lines []string, opt *cmdutils.Options) []string {
 	var res []string
 	for _, line := range lines {
