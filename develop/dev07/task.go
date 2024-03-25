@@ -1,5 +1,6 @@
 package dev06
 
+// OrChannel combines multiple done
 func OrChannel(channels ...<-chan interface{}) <-chan interface{} {
 	switch len(channels) {
 	case 0:

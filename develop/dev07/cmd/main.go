@@ -25,5 +25,5 @@ func main() {
 		sig(1*time.Minute),
 	)
 
-	fmt.Printf("fone after %v", time.Since(start))
+	fmt.Printf("fone after %v\n", time.Since(start))
 }
